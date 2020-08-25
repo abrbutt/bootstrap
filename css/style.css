@@ -2,8 +2,9 @@
     margin: 0px auto;
     padding: 0px;
 }
-.row-content{
-    min-height: 100px ;
+.p{
+    margin-top: 100px ;
+    margin-bottom: 100px ;
 }
 .footer{
     background-color: aquamarine;
