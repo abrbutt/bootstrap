@@ -22,7 +22,7 @@
             <span class="navbar-toggler-icon"></span>
 
         </button>
-       <a class="navbar-brand" href="index.html"><img src="img/logo.png" height="30" width="41"> </a>
+        <a class="navbar-brand" href="index.html"><img src="img/logo.png" height="30" width="41"></a>
        <div class="collapse navbar-collapse" id="navBar" >
        <ul class="navbar-nav mr-auto">
            <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-home fa-lg"></i> Home </a></li>
@@ -47,7 +47,7 @@
             </div>
        
             <div class="col-sm-3 align-self-center" >
-              <button class="btn btn-warning" onclick="" >Reserve Table</button>
+             <a class="btn btn-warning" href="#res">Reserve Table</a>
           </div>
         </div>
         </div>
@@ -105,39 +105,42 @@
                
             </div>
         </div>
-    <form class="row-content"  >
-        <div class="col-sm-6 offset-3">
-            <div class="card">
-                <h3 class="card-header bg-warning text-white">Reserve a Table</h3>
-                <div class="card-body">
-                    <dl class="row" >
-                        <dt class="col-3">Number of Guest</dt>
-                        <dd class="col-9"><label> <input type="radio" name="option"> 1 </label>
-                                          <label> <input type="radio" name="option"> 2 </label>
-                                          <label> <input type="radio" name="option"> 3 </label>
-                                          <label> <input type="radio" name="option"> 4 </label>
-                                          <label> <input type="radio" name="option"> 5 </label>
-                                          <label> <input type="radio" name="option"> 6 </label>
-                                        </dd> 
-                            
-                        <dt class="col-3">Date and Time</dt>
-                        <dd class="col-4"><input type="text" id="date" name="date" placeholder="Date"></dd>
-                        <dd class="col-5"><input type="text" id="time" name="time" placeholder="Time"></dd>
-                     
-                        <dd class="col-3 offset-3"> <a class="btn btn-primary">Reserve</a></dd>
+        <div class="row justify-content-center">
+            <div class="col-12 col-sm-6">
+                <div class="card">
+                <h3 class="card-header bg-warning text-white" id="res"  >Reserve a table</h3>
+               <div class="card-body">
+                <dl class="row row-content">
+                    <dt class="col-12 col-sm-3 ">Number of Guest</dt>
+                    <dd class="col-12 col-sm-8"><label> <input type="radio" name="option"> 1 </label>
+                                      <label> <input type="radio" name="option"> 2 </label>
+                                      <label> <input type="radio" name="option"> 3 </label>
+                                      <label> <input type="radio" name="option"> 4 </label>
+                                      <label> <input type="radio" name="option"> 5 </label>
+                                      <label> <input type="radio" name="option"> 6 </label>
+                                    </dd> 
+                        
+                    <dt class="col-12 col-sm-3">Date and Time</dt>
+                    <input class="col-12 col-sm-3 mr-3" type="text" id="date" name="date" placeholder="Date">
+                    <input class="col-12 col-sm-3" type="text" id="time" name="time" placeholder="Time">
+                </dl>
                 
-                    </dl>
-                   
-                </div>
-            </div>
+                
+                    <dd class="col col-sm offset-3 mt-3"  ><button class="btn btn-primary">Reserve</button></dd>
+                    
+            
+                
+               
 
+            </div>
+            </div>
+            </div>
         </div>
-    </form>
     </div>
 
     <footer>
         <div class="container">
-            <div class="row footer" >             
+            <div class="row footer mt-5" >             
                 <div class="col-4 offset-1 col-sm-2">
                     <h5>Links</h5>
                     <ul class="list-unstyled" >
